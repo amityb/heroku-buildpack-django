@@ -27,5 +27,5 @@ addons:
   shared-database:5mb
 
 default_process_types:
-  web:      python $PROJECT/manage.py runserver 0.0.0.0:\$PORT --noreload
+  web:      python manage.py runserver 0.0.0.0:\$PORT --noreload
 EOF
